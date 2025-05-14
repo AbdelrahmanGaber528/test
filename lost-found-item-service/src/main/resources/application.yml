@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: lost-found-item-service
+  config:
+    import: optional:configserver:http://localhost:8888
